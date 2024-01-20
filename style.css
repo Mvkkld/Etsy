@@ -1,103 +1,110 @@
 body{
+    font-family: "Guardian-EgypTT","Charter","Charter Bitstream","Cambria","Noto Serif Light","Droid Serif","Georgia","serif";
     margin: 0px;
     padding: 0px;
 }
 nav{
-    height: 60px;
+    width: auto;
+    height: 53px;
+    }
+.nav-bar{
+    padding-top: 12px;
+    margin: 0px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    }
-.nav-bar{
-    align-items: center;
-    font-size: 20px;
-    display: flex;
 }
 .search-bar{
     justify-content: right;
     display: flex;
     align-items: center;
-    width: 650px;
-    height: 40px;
+    width:860px;
+    height: 44px;
     border: 2px solid black;
     border-radius: 25px;
 }
 .icons{
-    font-size: 30px;
-    margin-right: 20px;
-}
-.sign-in{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
     font-size: 20px;
+    }
+.sign-in{
+    display: flex;
+    font-size: 20px;
+    margin-left: 30px;
 }
 .etsy{
-    font-size: 45px;
-    margin-right: 10px;
+    display: flex;
+    font-size: 40px;
+    margin-right: 20px;
+    margin-left: -10px;
     color: var(--clg-color-app-utility-background-orange-base, #F1641E) !important;
 }
 nav>div>i{
-    margin-left: 10px;
-    margin-right: 20px;
+    display: flex;
+    margin-left:0px;
+    margin-right: 0px;
+    font-size: 20px;
 }
 .search-logo{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F1641E;
-    width: 33px;
-    height: 33px;
-    border-radius: 16.5px;
-    margin-right: 5px;
+    width: 5%;
+    height: 90%;
+    border-radius: 50%;
+    margin-right: 3.5px;
 }
 .search-logo>i{
+    display: flex;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
 }
 .value{
-    text-align: center;
-    margin: 10px;
+    height:50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom: 2px solid lightgray;
     font-size: 15px;
-     width: 100%;
- height: 40px;
 }
 .cod{
     font-weight: bold;
     margin-right: 45px;
 }
 .msg{
+    margin-bottom: -21px;
+    margin-top: 20px;
     font-size: 30px;
 text-align: center;    
 }
-.grand{
-    width: 95%;
-    text-align: center;
-    margin: 8px 12px;
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .parent{
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 15px;
-    width: 190px;
-    height: 210px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    display: flex;
+    margin-left: 210px;
 }
-.child{ display: flex;
-    margin: 0px 30px;
+.ss{
+    margin: 0px 7px;
+    width: 150px;
+    height: 180px;
+    }
+.child{
     overflow: hidden;
-    border-radius: 50%;
-    width: 130px;
+    width: 120px;
     height: 130px;
+    border-radius: 50%;
+    
 }
-.child-img > img{
-    width: 100%;
-    height: 100%;
+.child-img>img{
+    width: 150px;
+    height: 150px;
     }
 .desc{
-    font-weight: bold;
-    display: flex;
-    margin-top: 10px;
-    margin-left: 40px;   
+    font-weight: bold;   
 }
 .desc:hover{
     cursor: pointer;
@@ -112,7 +119,7 @@ h1{
     height: 100%;
     width: 95%;
     text-align: center;
-    margin: 8px 12px;
+    margin: 0px 12px;
     display: flex;
     flex-wrap: wrap;
 }
