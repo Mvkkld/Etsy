@@ -1,53 +1,61 @@
-body{
-    font-family: "Guardian-EgypTT","Charter","Charter Bitstream","Cambria","Noto Serif Light","Droid Serif","Georgia","serif";
+body {
+    font-family: "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif";
     margin: 0px;
     padding: 0px;
 }
-nav{
+
+nav {
     width: auto;
     height: 53px;
-    }
-.nav-bar{
+}
+
+.nav-bar {
     padding-top: 12px;
     margin: 0px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.search-bar{
+
+.search-bar {
     justify-content: right;
     display: flex;
     align-items: center;
-    width:860px;
+    width: 860px;
     height: 44px;
     border: 2px solid black;
     border-radius: 25px;
 }
-.icons{
+
+.icons {
     width: 70px;
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    }
-.sign-in{
+}
+
+.sign-in {
     display: flex;
     font-size: 20px;
     margin-left: 30px;
 }
-.etsy{
+
+.etsy {
     display: flex;
     font-size: 40px;
     margin-right: 20px;
     margin-left: -10px;
     color: var(--clg-color-app-utility-background-orange-base, #F1641E) !important;
 }
-nav>div>i{
+
+nav>div>i {
     display: flex;
-    margin-left:0px;
+    margin-left: 0px;
     margin-right: 0px;
     font-size: 20px;
 }
-.search-logo{
+
+.search-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,99 +65,319 @@ nav>div>i{
     border-radius: 50%;
     margin-right: 3.5px;
 }
-.search-logo>i{
+
+.search-logo>i {
     display: flex;
     color: white;
     font-size: 22px;
 }
-.value{
-    height:50px ;
+
+.value {
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid lightgray;
     font-size: 15px;
 }
-.cod{
+
+.cod {
     font-weight: bold;
     margin-right: 45px;
 }
-.msg{
+
+.msg {
     margin-bottom: -21px;
     margin-top: 20px;
     font-size: 30px;
-text-align: center;    
+    text-align: center;
 }
 
-.parent{
-    flex-wrap: wrap;
-    margin-top: 70px;
+.parent {
+    margin-top: 50px;
     display: flex;
-    margin-left: 210px;
+    justify-content: center;
+    gap: 50px;
 }
-.ss{
-    margin: 0px 7px;
-    width: 150px;
-    height: 180px;
-    }
-.child{
-    overflow: hidden;
-    width: 120px;
-    height: 130px;
+
+
+.child {
+    height: 110px;
+    width: 110px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     border-radius: 50%;
-    
 }
-.child-img>img{
-    width: 150px;
-    height: 150px;
-    }
-.desc{
-    font-weight: bold;   
+
+.child>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
-.desc:hover{
+
+.desc {
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.desc:hover {
+
     cursor: pointer;
 }
-h1{
+
+h1 {
+    margin-top: 150px;
     font-weight: lighter;
     text-align: center;
 }
 
 
-.grand1{
-    height: 100%;
-    width: 95%;
-    text-align: center;
-    margin: 0px 12px;
+
+.parent1 {
     display: flex;
+    justify-content: center;
+    gap: 25px;
     flex-wrap: wrap;
 }
-.parent1{
-    text-align: center;
-    margin-top: 130px;
-    margin-left: 15px;
-    width: 190px;
-    height: 210px;
-}
-.child1{ display: flex;
-    margin: 0px 30px;
-    overflow: hidden;
-    border-radius: 5%;
-    width: 180px;
-    height: 290px;
-}
-.child-img1 > img{
-    width: 100%;
-    height: 100%;
-    }
-.desc1{
-    font-weight: bold;
+
+.child1 {
+    border: 1px solid white;
+    border-radius: 10px;
     display: flex;
-    margin-top: 10px;
-    margin-left: 40px;   
+    text-align: center;
+    width: 170px;
+    height: 290px;
+    flex-direction: column;
 }
-.desc1:hover{
+
+.child1>img {
+    width: 100%;
+    height: 85%;
+    border-radius: 10px;
+}
+
+.desc1 {
+    margin-top: 15px;
+}
+
+.desc1:hover {
     cursor: pointer;
 }
-h2{
+
+.showdiv {
+    margin-top: 40px;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.showmore {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: lightsteelblue;
+}
+
+h2 {
+    padding-left: 10px;
+    margin-top: 10%;
+}
+
+.parent2 {
+    margin: 0px 12px;
+    display: flex;
+}
+
+.icon2 {
+    font-size: 11px;
+}
+
+.child2 {
+    margin: 0px 6px;
+    padding: 6px 7px;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    padding-bottom: 10px;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.child2:hover {
+    box-shadow: 5px;
+    transform: scale(1.02);
+
+}
+
+.child2>img {
+    border-radius: 10px;
+    width: 100%;
+    height: 75%;
+}
+
+.newprice {
+    font-weight: bold;
+}
+
+.oldprice {
+    color: green;
+    text-decoration: line-through;
+}
+
+.discount {
+    color: green;
+}
+
+.lastdiv {
+    font-size: 30px;
+}
+
+.parent3 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.child3:hover {
+    box-shadow: 5px;
+    transform: scale(1.02);
+
+}
+
+.child3 {
+    width: 250px;
+    height: 255px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    margin: 0px 12px;
+}
+
+.child3>img {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.child3>span {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info {
+    margin: 95px auto;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(241, 245, 11);
+}
+
+.infobox {
+    display: flex;
+    margin-top: 30px;
+}
+
+.infoheading {
+    font-size: 40px;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.infospan {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.paratitle {
+    margin: auto 10px;
+    width: 400px;
+    height: 240px;
+}
+
+h4 {
+    margin-top: 0px;
+    font-size: 27px;
+}
+
+.infopara {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.question {
+    text-align: center;
+}
+
+.showdiv1 {
+    margin-top: 40px;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.showmore1 {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media(max-width:900px) {
+    .lastdiv {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .parent3 {
+        justify-content: center;
+        text-align: left;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .child3 {
+        width: 100%;
+        height: 80px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: raw;
+        text-align: center;
+        margin: 0px 12px;
+    }
+
+    .child3>img {
+        width: 80px;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .child3>span {
+        padding-bottom: 0px;
+        font-size: 20px;
+        font-weight: bold;
+    }
 }
