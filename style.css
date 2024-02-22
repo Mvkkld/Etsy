@@ -42,7 +42,7 @@ nav {
 
 .etsy {
     display: flex;
-    font-size: 40px;
+    font-size: 14px;
     margin-right: 20px;
     margin-left: -10px;
     color: var(--clg-color-app-utility-background-green-base, #F1641E) !important;
